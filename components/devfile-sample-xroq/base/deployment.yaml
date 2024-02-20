@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xroq
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0057-tenant/tkrw-pr712-0075-0057-app/devfile-sample-xroq@sha256:be95bc47ab51a5c5594715c934818cabcd789f9c9868f0cb1505e7b913044504
         name: my-nodejs
         ports:
         - containerPort: 3001
